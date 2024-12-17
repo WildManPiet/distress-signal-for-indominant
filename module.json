@@ -1,0 +1,79 @@
+{
+  "id": "distress-signal-for-indominant",
+  "title": "Distress Signal for Indominant",
+  "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/module.json",
+  "download": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/distress_1_0_0.zip",
+  "systemVersion": "2.0.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "indominantpiet",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "healthEstimate",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dice-calculator",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-little-details",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dfreds-convenient-effects",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tabletop-rpg-music",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "simplefog",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "WildManPiet",
+      "email": "gregpiet@gmail.com",
+      "discord": "WildManPiet",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "training-mission",
+      "label": "Training Mission",
+      "path": "packs/training-mission",
+      "type": "Adventure",
+      "system": "indominantpiet",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
