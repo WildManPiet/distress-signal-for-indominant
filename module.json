@@ -1,9 +1,9 @@
 {
   "id": "distress-signal-for-indominant",
   "title": "Distress Signal for Indominant",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "manifest": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/module.json",
-  "download": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/distress_1_0_3.zip",
+  "download": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/distress_1_0_4.zip",
   "systemVersion": "2.0.2",
   "compatibility": {
     "minimum": "12",
