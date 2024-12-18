@@ -4,7 +4,6 @@
   "version": "1.0.4",
   "manifest": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/module.json",
   "download": "https://raw.githubusercontent.com/WildManPiet/distress-signal-for-indominant/main/distress_1_0_4.zip",
-  "systemVersion": "2.0.2",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -14,7 +13,9 @@
       {
         "id": "indominantpiet",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "verified": "2.0.4"
+        }
       }
     ],
     "recommends": [
